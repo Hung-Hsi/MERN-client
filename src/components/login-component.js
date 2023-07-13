@@ -25,7 +25,7 @@ const LoginComponent = (props) => {
         }
         window.alert("Login Successfully, now you are redirect to the profile.");
         setCurrentUser(AuthService.getCurrentUser());
-        navigate("/profile");
+        navigate("/MERN-client/profile");
       })
       .catch((err) => {
         console.log(err.response);

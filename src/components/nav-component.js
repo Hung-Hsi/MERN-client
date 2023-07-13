@@ -10,7 +10,7 @@ const NavComponent = (props) => {
     window.alert("Logout Successfully, now you are redirect to the homepage.");
     // setCurrentUser(AuthService.getCurrentUser());
     setCurrentUser(null);
-    navigate("/");
+    navigate("/MERN-client/");
   };
 
   return (

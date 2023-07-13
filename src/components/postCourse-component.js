@@ -12,7 +12,7 @@ const PostCourseComponent = (props) => {
   const navigate = useNavigate();
 
   const handleTakeToLogin = () => {
-    navigate("/login");
+    navigate("/MERN-client/login");
   };
   const handleChangeTitle = (e) => {
     setTitle(e.target.value);
@@ -27,7 +27,7 @@ const PostCourseComponent = (props) => {
     CourseService.post(title, description, price)
       .then(() => {
         window.alert("New course has been created.");
-        navigate("/course");
+        navigate("/MERN-client/course");
       })
       .catch((err) => {
         console.log(err.response);

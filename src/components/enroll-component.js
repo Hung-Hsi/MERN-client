@@ -9,7 +9,7 @@ const EnrollComponent = (props) => {
     let [searchResult, setSearchResult] = useState([]);
 
     const handleTakeToLogin = () => {
-        navigate("/login");
+        navigate("/MERN-client/login");
     };
     const handleChangeInput = (e) => {
         setSearchInput(e.target.value);
@@ -30,7 +30,7 @@ const EnrollComponent = (props) => {
         CourseService.enroll(e.target.id, currentUser.user._id)
             .then(() => {
                 window.alert("Done Enrollment");
-                navigate("/course");
+                navigate("/MERN-client/course");
             })
             .catch((err) => {
                 console.log(err);

@@ -26,7 +26,7 @@ const RegisterComponent = () => {
     AuthService.register(username, email, password, role)
       .then(() => {
         window.alert("Register succeeds. You are now redirect to the login page.");
-        navigate("/login");
+        navigate("/MERN-client/login");
       })
       .catch((err) => {
         console.log(err.response);

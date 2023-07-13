@@ -19,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"  
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -39,5 +39,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": " https://hung-hsi.github.io/Server-with-Json-Web-Token/"
+  "homepage": " https://hung-hsi.github.io/MERN-client/"
 }

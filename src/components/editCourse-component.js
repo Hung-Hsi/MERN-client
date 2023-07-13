@@ -12,7 +12,7 @@ const EditCourseComponent = (props) => {
   const navigate = useNavigate();
 
   const handleTakeToLogin = () => {
-    navigate("/login");
+    navigate("/MERN-client/login");
   };
   const handleChangeTitle = (e) => {
     setTitle(e.target.value);
@@ -32,7 +32,7 @@ const EditCourseComponent = (props) => {
       CourseService.patch(_id, data)
         .then(() => {
           window.alert("The course has been edited.");
-          navigate("/course");
+          navigate("/MERN-client/course");
         })
         .catch((err) => {
           console.log(err.response);

@@ -6,7 +6,7 @@ const CourseComponent = (props) => {
     let { currentUser, setCurrentUser, patchCourseId, setPatchCourseId } = props;
     const navigate = useNavigate();
     const handleTakeToLogin = () => {
-        navigate("/login");
+        navigate("/MERN-client/login");
     };
     let [courseData, setCourseData] = useState(null);
 
@@ -15,7 +15,7 @@ const CourseComponent = (props) => {
         patchCourseId = courseId;
         setPatchCourseId(courseId);
         if (patchCourseId !== "") { 
-            navigate("/editCourse");
+            navigate("/MERN-client/editCourse");
         }
     }
     const handleCourseDelete = (courseId) => {
