@@ -22,21 +22,21 @@ function App() {
                 setCurrentUser={setCurrentUser}
             />
             <Routes>
-                <Route path="/" element={<HomeComponent />} />
-                <Route path="/register" element={<RegisterComponent />} />
-                <Route path="/login" element={
+                <Route path="/MERN-client/" element={<HomeComponent />} />
+                <Route path="/MERN-client/register" element={<RegisterComponent />} />
+                <Route path="/MERN-client/login" element={
                     <LoginComponent
                         currentUser={currentUser}
                         setCurrentUser={setCurrentUser}
                     />
                 }/>
-                <Route path="/profile" element={
+                <Route path="/MERN-client/profile" element={
                     <ProfileComponent
                         currentUser={currentUser}
                         setCurrentUser={setCurrentUser}
                     />
                 }/>
-                <Route path="/course" element={
+                <Route path="/MERN-client/course" element={
                     <CourseComponent
                         currentUser={currentUser}
                         setCurrentUser={setCurrentUser}
@@ -44,13 +44,13 @@ function App() {
                         setPatchCourseId={setPatchCourseId}
                     />
                 }/>
-                <Route path="/postCourse" element={
+                <Route path="/MERN-client/postCourse" element={
                     <PostCourseComponent
                         currentUser={currentUser}
                         setCurrentUser={setCurrentUser}
                     />
                 }/>
-                <Route path="/editCourse" element={
+                <Route path="/MERN-client/editCourse" element={
                     <EditCourseComponent
                         currentUser={currentUser}
                         setCurrentUser={setCurrentUser}
@@ -58,7 +58,7 @@ function App() {
                         setPatchCourseId={setPatchCourseId}
                     />
                 }/>
-                <Route path="/enroll" element={
+                <Route path="/MERN-client/enroll" element={
                     <EnrollComponent
                         currentUser={currentUser}
                         setCurrentUser={setCurrentUser}
