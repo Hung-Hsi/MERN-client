@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/Server-with-Json-Web-Token/static/js/main.6971f56c.js",
+    "index.html": "/Server-with-Json-Web-Token/index.html",
+    "main.6971f56c.js.map": "/Server-with-Json-Web-Token/static/js/main.6971f56c.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.6971f56c.js"
+  ]
+}
