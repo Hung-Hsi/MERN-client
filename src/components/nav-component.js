@@ -21,51 +21,51 @@ const NavComponent = (props) => {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <Link className="nav-link active" to="/">
+                  <Link className="nav-link active" to="/MERN-client/">
                     Home
                   </Link>
                 </li>
                 {!currentUser && (
                   <li className="nav-item">
-                    <Link className="nav-link" to="/register">
+                    <Link className="nav-link" to="/MERN-client/register">
                       Register
                     </Link>
                   </li>
                 )}
                 {!currentUser && (
                   <li className="nav-item">
-                    <Link className="nav-link" to="/login">
+                    <Link className="nav-link" to="/MERN-client/login">
                       Login
                     </Link>
                   </li>
                 )}
                 {currentUser && (
                   <li className="nav-item">
-                    <Link onClick={handleLogout} className="nav-link" to="/">
+                    <Link onClick={handleLogout} className="nav-link" to="/MERN-client/">
                       Logout
                     </Link>
                   </li>)}
                 {currentUser && (
                   <li className="nav-item">
-                    <Link className="nav-link" to="/profile">
+                    <Link className="nav-link" to="/MERN-client/profile">
                       Profile
                     </Link>
                   </li>)}
                 {currentUser && (
                   <li className="nav-item">
-                    <Link className="nav-link" to="/course">
+                    <Link className="nav-link" to="/MERN-client/course">
                       Course
                     </Link>
                   </li>)}
                 {currentUser && currentUser.user.role == "instructor" && (
                   <li className="nav-item">
-                    <Link className="nav-link" to="/postCourse">
+                    <Link className="nav-link" to="/MERN-client/postCourse">
                       Post Course
                     </Link>
                   </li>)}
                 {currentUser && currentUser.user.role == "student" && (
                   <li className="nav-item">
-                    <Link className="nav-link" to="/enroll">
+                    <Link className="nav-link" to="/MERN-client/enroll">
                       Enroll
                     </Link>
                   </li>)}
