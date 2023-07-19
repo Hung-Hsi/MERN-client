@@ -39,5 +39,13 @@
       "last 1 safari version"
     ]
   },
-  "homepage": " https://hung-hsi.github.io/MERN-client/"
+  "homepage": " https://hung-hsi.github.io/MERN-client/",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/Server-with-Json-Web-Token/static/js/main.6971f56c.js",
-    "index.html": "/Server-with-Json-Web-Token/index.html",
-    "main.6971f56c.js.map": "/Server-with-Json-Web-Token/static/js/main.6971f56c.js.map"
+    "main.js": "/MERN-client/static/js/main.fb31f3d0.js",
+    "index.html": "/MERN-client/index.html",
+    "main.fb31f3d0.js.map": "/MERN-client/static/js/main.fb31f3d0.js.map"
   },
   "entrypoints": [
-    "static/js/main.6971f56c.js"
+    "static/js/main.fb31f3d0.js"
   ]
 }
